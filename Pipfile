@@ -15,6 +15,10 @@ requests = "*"
 selenium = "*"
 webdriver-manager = "*"
 black = "*"
+pyyaml = "*"
+pylint = "*"
+moto = "*"
+coverage = "*"
 
 [dev-packages]
 
