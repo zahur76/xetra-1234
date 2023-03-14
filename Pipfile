@@ -5,22 +5,23 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+boto3 = "*"
+
+pyarrow = "*"
+webdriver-manager = "*"
+pyyaml = "*"
+moto = "*"
+
+[dev-packages]
 awscli = "*"
 jupyter = "*"
-boto3 = "*"
-schedule = "*"
-pyarrow = "*"
+black = "*"
+pylint = "*"
+coverage = "*"
 beautifulsoup4 = "*"
 requests = "*"
 selenium = "*"
-webdriver-manager = "*"
-black = "*"
-pyyaml = "*"
-pylint = "*"
-moto = "*"
-coverage = "*"
-
-[dev-packages]
+schedule = "*"
 
 [requires]
 python_version = "3.10"
